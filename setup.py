@@ -9,13 +9,13 @@ def read(fname):
 
 setup(
     name = "python-forecastio",
-    version = "0.1",
-    author = "Ze'ev Gilovitz",
+    version = "0.2",
+    author = "Ze'ev Gilovitz modified by Kyle",
     author_email = "zeev.gil@gmail.com",
     description = ("A thin Python Wrapper for the Forecast.io weather API"),
     license = "BSD 2-clause",
     keywords = "weather API wrapper forecast.io location",
-    url = "https://github.com/ZeevG/python-forcast.io",
+    url = "https://github.com/shrdnar/python-forcast.io",
     packages=['forecastio'],
     package_data={'forecastio': ['LICENSE.txt', 'README.rst']},
     long_description=open('README.rst').read(),
