@@ -1,1 +1,1 @@
-from api import load_forecast
+from .api import load_forecast
